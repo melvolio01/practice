@@ -1,0 +1,24 @@
+{
+  "name": "express-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Hayden <mickyginger@gmail.com> (https://github.com/mickyginger)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.7",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "multer-s3": "^1.4.1",
+    "uuid": "^2.0.1"
+  }
+}

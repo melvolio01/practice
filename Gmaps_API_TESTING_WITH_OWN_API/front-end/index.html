@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <title>GMAPS API Fiddle</title>
+
+  <head>
+
+    <style type="text/css">
+      html, body {
+        height: 100%; margin: 0; padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxM36DxD-TmmCuWMML0UXBVSirOUkF42Q" charset="utf-8"></script>
+    <script src="/js/map.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/skeleton.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/app.css" media="screen" title="no title" charset="utf-8">
+
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div class="formContainer">
+      <form class="" action="/packages" method="post">
+        <input type="text" class="contents" placeholder="Contents">
+        <input type="text" class="lat" placeholder="Latitude">
+        <input type="text" class="lng" placeholder="Longitude">
+        <button type="submit">Create</button>
+      </form>
+    </div>
+  </body>
+</html>

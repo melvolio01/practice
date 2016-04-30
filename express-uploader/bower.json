@@ -1,0 +1,23 @@
+{
+  "name": "express-uploader",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Mike Hayden <mickyginger@gmail.com> (https://github.com/mickyginger)"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6"
+  }
+}
